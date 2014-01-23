@@ -1,4 +1,3 @@
-
 /*
 Author:
         alexander<dot>hanel<at>gmail<dot>com
@@ -333,7 +332,7 @@ PSDLLS* psListCreate( HANDLE _hProc, const char path[], const int addr, const in
 		ps->size  = _size;
 		ps->next = NULL;
 		return ps;
-	}psListCreate
+	}
 	return NULL;
 }
 
